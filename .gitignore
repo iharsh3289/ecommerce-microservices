@@ -59,3 +59,30 @@ build/
 
 ### MacOs ###
 .DS_Store
+
+### Environment Configuration ###
+.env
+.env.local
+.env.*.local
+*.env
+
+### Logs ###
+*.log
+logs/
+
+### Temporary Files ###
+tmp/
+temp/
+*.tmp
+
+### Upload Directory ###
+uploads/
+media/
+
+### IDE Temporary Files ###
+*.swp
+*.swo
+*~
+.project
+.classpath
+.c9/
