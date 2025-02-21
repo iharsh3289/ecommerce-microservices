@@ -66,6 +66,13 @@ build/
 .env.*.local
 *.env
 
+### Security & Sensitive Files ###
+.whitesource
+.snyk
+.credentials
+credentials.json
+secrets.json
+
 ### Logs ###
 *.log
 logs/
@@ -86,3 +93,15 @@ media/
 .project
 .classpath
 .c9/
+
+### OS Files ###
+.DS_Store
+Thumbs.db
+
+### Build & Cache ###
+.gradle
+gradle/
+.m2/
+node_modules/
+dist/
+build/
